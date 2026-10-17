@@ -31,11 +31,16 @@ flowchart TB
     ARCH["Spare Arch<br/>replaces Revit"]
     STUDIO["Spare Studio<br/>replaces Adobe"]
   end
+  subgraph SHARE["`**Sharing and talking**`"]
+    direction LR
+    SOCIAL["Spare Social<br/>replaces TikTok, YouTube,<br/>Instagram, Facebook"]
+  end
   CMD["One command layer per app<br/>people, AI agents and add-ins all use the same path"]
   KIT["`**Shared kit**
   accounts, payments, matching, maps, messaging,
   ratings, member voting, open cost ledger, sync, plugins`"]
   RUN["Servers run at cost, and any member group can host its own"]
+  SHARE --> CMD
   TRADE --> CMD
   LIVE --> CMD
   MOVE --> CMD
@@ -50,6 +55,7 @@ flowchart TB
 | Shared kit | The parts every platform rebuilds | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/ARCHITECTURE.md) |
 | Spare Arch | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-arch/ARCHITECTURE.md) |
 | Spare Studio (working name) | Adobe's apps: Photoshop, Illustrator, InDesign, Premiere, After Effects, Lightroom, Acrobat and more | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-studio/ARCHITECTURE.md) |
+| Spare Social (working name) | TikTok, YouTube, Instagram and Facebook, together | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-social/ARCHITECTURE.md) |
 | Spare Ride | Uber | Idea | Not mapped yet |
 | Spare Food | Uber Eats, DoorDash | Idea | Not mapped yet |
 | Spare Stay | Airbnb, Booking.com | Idea | Not mapped yet |
