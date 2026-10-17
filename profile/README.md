@@ -10,15 +10,10 @@ Every program sits on one shared kit, so each new app gets accounts, payments, A
 
 ```mermaid
 flowchart TB
-  subgraph DESIGN["`**Design tools**`"]
+  subgraph TRADE["`**Work and trade**`"]
     direction LR
-    ARCH["Spare Arch<br/>replaces Revit"]
-    STUDIO["Spare Studio<br/>replaces Adobe"]
-  end
-  subgraph MOVE["`**Getting around and eating**`"]
-    direction LR
-    RIDE["Spare Ride<br/>replaces Uber"]
-    FOOD["Spare Food<br/>replaces food delivery apps"]
+    WORK["Spare Work<br/>trades and freelance"]
+    MARKET["Spare Market<br/>buy and sell"]
   end
   subgraph LIVE["`**Places to live and stay**`"]
     direction LR
@@ -26,20 +21,25 @@ flowchart TB
     HOME["Spare Home<br/>selling a home"]
     RENT["Spare Rent<br/>renting a home"]
   end
-  subgraph TRADE["`**Work and trade**`"]
+  subgraph MOVE["`**Getting around and eating**`"]
     direction LR
-    WORK["Spare Work<br/>trades and freelance"]
-    MARKET["Spare Market<br/>buy and sell"]
+    RIDE["Spare Ride<br/>replaces Uber"]
+    FOOD["Spare Food<br/>replaces food delivery apps"]
+  end
+  subgraph DESIGN["`**Design tools**`"]
+    direction LR
+    ARCH["Spare Arch<br/>replaces Revit"]
+    STUDIO["Spare Studio<br/>replaces Adobe"]
   end
   CMD["One command layer per app<br/>people, AI agents and add-ins all use the same path"]
   KIT["`**Shared kit**
   accounts, payments, matching, maps, messaging,
   ratings, member voting, open cost ledger, sync, plugins`"]
   RUN["Servers run at cost, and any member group can host its own"]
-  DESIGN --> CMD
-  MOVE --> CMD
-  LIVE --> CMD
   TRADE --> CMD
+  LIVE --> CMD
+  MOVE --> CMD
+  DESIGN --> CMD
   CMD --> KIT --> RUN
 ```
 
