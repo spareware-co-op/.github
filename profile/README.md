@@ -1,3 +1,5 @@
+<p><img src="https://raw.githubusercontent.com/spareware-co-op/spareware/main/assets/logo-1024.png" width="96" alt="Spareware logo"></p>
+
 # Spareware Co-op
 
 **Free software for working people, built from spare AI tokens. Owned by its members.**
