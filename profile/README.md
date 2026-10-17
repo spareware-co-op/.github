@@ -69,13 +69,13 @@ flowchart TB
 | Spare Arch | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-arch/ARCHITECTURE.md) |
 | Spare Studio (working name) | Adobe's apps: Photoshop, Illustrator, InDesign, Premiere, After Effects, Lightroom, Acrobat and more | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-studio/ARCHITECTURE.md) |
 | Spare Social (working name) | TikTok, YouTube, Instagram and Facebook, together | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-social/ARCHITECTURE.md) |
-| Spare Ride | Uber | Idea | Not mapped yet |
-| Spare Food | Uber Eats, DoorDash | Idea | Not mapped yet |
-| Spare Stay | Airbnb, Booking.com | Idea | Not mapped yet |
-| Spare Home | Agent commissions and listing fees when selling a home | Idea | Not mapped yet |
-| Spare Rent | Property manager and listing fees | Idea | Not mapped yet |
-| Spare Work | Trades and freelance marketplaces | Idea | Not mapped yet |
-| Spare Market | Trade Me, eBay, Etsy | Idea | Not mapped yet |
+| Spare Ride | Uber | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-ride/ARCHITECTURE.md) |
+| Spare Food | Uber Eats, DoorDash | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-food/ARCHITECTURE.md) |
+| Spare Stay | Airbnb, Booking.com | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-stay/ARCHITECTURE.md) |
+| Spare Home | Agent commissions and listing fees when selling a home | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-home/ARCHITECTURE.md) |
+| Spare Rent | Property manager and listing fees | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-rent/ARCHITECTURE.md) |
+| Spare Work | Trades and freelance marketplaces | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-work/ARCHITECTURE.md) |
+| Spare Market | Trade Me, eBay, Etsy | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-market/ARCHITECTURE.md) |
 
 Stages run Idea, Mapping, Design, Build, Harden, Live. [Where everything is up to](https://github.com/spareware-co-op/spareware/blob/main/STATUS.md)
 
