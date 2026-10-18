@@ -17,7 +17,7 @@ flowchart TB
     WORK["`**Spare Work**
 *trades and freelance*`"]
     MARKET["`**Spare Market**
-*buy and sell*`"]
+*buy, sell, run a shop*`"]
   end
   subgraph LIVE["`**Places to live and stay**`"]
     direction LR
@@ -47,12 +47,20 @@ flowchart TB
     SOCIAL["`**Spare Social**
 *replaces TikTok, YouTube, Instagram, Facebook*`"]
   end
+  subgraph COMPUTE["`**Everyday computing**`"]
+    direction LR
+    OFFICE["`**Spare Office**
+*replaces Microsoft 365*`"]
+    OSYS["`**Spare OS**
+*replaces paying for Windows*`"]
+  end
   CMD["`**One command layer per app**
 *people, AI agents and add-ins all use the same path*`"]
   KIT["`**Shared kit**
 *accounts, payments, matching, maps, messaging, ratings, member voting, open cost ledger, sync, plugins*`"]
   RUN["`**Servers run at cost**
 *any member group can host its own*`"]
+  COMPUTE --> CMD
   SHARE --> CMD
   TRADE --> CMD
   LIVE --> CMD
@@ -69,13 +77,15 @@ flowchart TB
 | Spare Arch | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-arch/ARCHITECTURE.md) |
 | Spare Studio (working name) | Adobe's apps: Photoshop, Illustrator, InDesign, Premiere, After Effects, Lightroom, Acrobat and more | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-studio/ARCHITECTURE.md) |
 | Spare Social (working name) | TikTok, YouTube, Instagram and Facebook, together | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-social/ARCHITECTURE.md) |
+| Spare Office | Microsoft 365: Word, Excel, PowerPoint, Outlook, Teams, OneNote, OneDrive | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-office/ARCHITECTURE.md) |
+| Spare OS | Paying for Windows | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-os/ARCHITECTURE.md) |
 | Spare Ride | Uber | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-ride/ARCHITECTURE.md) |
 | Spare Food | Uber Eats, DoorDash | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-food/ARCHITECTURE.md) |
 | Spare Stay | Airbnb, Booking.com | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-stay/ARCHITECTURE.md) |
 | Spare Home | Agent commissions and listing fees when selling a home | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-home/ARCHITECTURE.md) |
 | Spare Rent | Property manager and listing fees | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-rent/ARCHITECTURE.md) |
 | Spare Work | Trades and freelance marketplaces | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-work/ARCHITECTURE.md) |
-| Spare Market | Trade Me, eBay, Etsy | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-market/ARCHITECTURE.md) |
+| Spare Market | Trade Me, eBay, Etsy, Shopify | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-market/ARCHITECTURE.md) |
 
 Stages run Idea, Mapping, Design, Build, Harden, Live. [Where everything is up to](https://github.com/spareware-co-op/spareware/blob/main/STATUS.md)
 
