@@ -2,9 +2,11 @@
 
 # Spareware Co-op
 
-**Free software for working people, built from spare AI tokens. Owned by its members.**
+**Free software for everyone. Let's build it together with the spare weekly AI tokens we don't finish.**
 
-Big platforms take a large cut from the people who do the work, and design software charges thousands a year just to be allowed to work. Spareware builds the replacements in the open. Every app takes only what it costs to run, and the people doing the work keep the rest.
+Most of us don't use all our AI tokens each week. Instead of letting them go to waste, point what's left at a piece of Spareware. Invited contributors pick a piece of work, their AI agent does it, and a person reviews every piece before it lands.
+
+Every Spareware app is free for everyone to use, anywhere in the world. On the apps where people earn a living, like rides, food delivery, stays and trades, the workers keep all of the profit except the running costs: the servers and payment fees it takes to keep the app going. Nobody takes a cut on top.
 
 ## How it all fits together
 
@@ -92,7 +94,7 @@ Stages run Idea, Mapping, Design, Build, Harden, Live. [Where everything is up t
 ## What every program promises
 
 - **At cost.** Fees cover only running costs, published every month on an open ledger.
-- **Members own it.** Workers vote on their app's fees and rules.
+- **Workers keep the profit.** Everything except running costs goes to the people doing the work, and they vote on their app's fees and rules.
 - **Built legally, or not at all.** No copied proprietary code or assets, no decompiling, licences respected. [The full rules](https://github.com/spareware-co-op/spareware#built-legally-or-not-at-all)
 
 ## Give your spare tokens
