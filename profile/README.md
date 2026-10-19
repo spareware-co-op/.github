@@ -66,6 +66,8 @@ flowchart TB
 *replaces Microsoft 365*`"]
     OSYS["`**Spare OS**
 *replaces paying for Windows*`"]
+    KEYS["`**Spare Keys**
+*passwords, sign-in codes and passkeys*`"]
   end
   CMD["`**One command layer per app**
 *people, AI agents and add-ins all use the same path*`"]
@@ -91,11 +93,12 @@ flowchart TB
 | Spare Construct | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-construct/ARCHITECTURE.md) |
 | Spare Studio (working name) | Adobe's apps: Photoshop, Illustrator, InDesign, Premiere, After Effects, Lightroom, Acrobat and more | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-studio/ARCHITECTURE.md) |
 | Spare Social (working name) | TikTok, YouTube, Instagram and Facebook, together | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-social/ARCHITECTURE.md) |
-| Spare Music | Spotify | Idea | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-music/ARCHITECTURE.md) |
-| Spare Movies | Netflix | Idea | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-movies/ARCHITECTURE.md) |
-| Spare Research | Journal paywalls and the fees scientists pay to publish | Idea | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-research/ARCHITECTURE.md) |
+| Spare Music | Spotify | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-music/ARCHITECTURE.md) |
+| Spare Movies | Netflix | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-movies/ARCHITECTURE.md) |
+| Spare Research | Journal paywalls and the fees scientists pay to publish | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-research/ARCHITECTURE.md) |
 | Spare Office | Microsoft 365: Word, Excel, PowerPoint, Outlook, Teams, OneNote, OneDrive | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-office/ARCHITECTURE.md) |
 | Spare OS | Paying for Windows | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-os/ARCHITECTURE.md) |
+| Spare Keys | Paid password managers and authenticator apps | Idea | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-keys/ARCHITECTURE.md) |
 | Spare Ride | Uber | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-ride/ARCHITECTURE.md) |
 | Spare Food | Uber Eats, DoorDash | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-food/ARCHITECTURE.md) |
 | Spare Stay | Airbnb, Booking.com | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-stay/ARCHITECTURE.md) |
