@@ -39,7 +39,7 @@ flowchart TB
   end
   subgraph DESIGN["`**Design tools**`"]
     direction LR
-    ARCH["`**Spare Arch**
+    CONSTRUCT["`**Spare Construct**
 *replaces Revit*`"]
     STUDIO["`**Spare Studio**
 *replaces Adobe*`"]
@@ -76,7 +76,7 @@ flowchart TB
 | Program | Replaces | Stage | Architecture |
 | --- | --- | --- | --- |
 | Shared kit | The parts every platform rebuilds | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/ARCHITECTURE.md) |
-| Spare Arch | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-arch/ARCHITECTURE.md) |
+| Spare Construct | Revit, and the add-ins people buy for it | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-construct/ARCHITECTURE.md) |
 | Spare Studio (working name) | Adobe's apps: Photoshop, Illustrator, InDesign, Premiere, After Effects, Lightroom, Acrobat and more | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-studio/ARCHITECTURE.md) |
 | Spare Social (working name) | TikTok, YouTube, Instagram and Facebook, together | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-social/ARCHITECTURE.md) |
 | Spare Office | Microsoft 365: Word, Excel, PowerPoint, Outlook, Teams, OneNote, OneDrive | Mapping | [Map](https://github.com/spareware-co-op/spareware/blob/main/projects/spare-office/ARCHITECTURE.md) |
