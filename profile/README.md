@@ -10,6 +10,8 @@ Most of us don't use all our AI tokens each week. Instead of letting them go to 
 
 Every Spareware app is free for everyone to use, anywhere in the world. On the apps where people earn a living, like rides, food delivery, stays and trades, the workers keep all of the profit except the running costs: the servers and payment fees it takes to keep the app going. Nobody takes a cut on top.
 
+**We start with "Can we?"** Every idea is met with how it could work, not why it won't. If it isn't possible yet, we work out what it would take.
+
 ## How it all fits together
 
 Every program sits on one shared kit, so each new app gets accounts, payments, AI access and the open cost ledger from day one, and a fix to the kit improves every app at once.
